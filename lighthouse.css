@@ -1,0 +1,53 @@
+body {
+  background-color: lightblue;
+}
+
+p {
+  color: navy;
+}
+
+h1, h2 { color: navy; }
+
+a:link, a:visited { color:navy;
+                    text-decoration: none;
+ }
+
+header { background-color: #869dc7;
+        font-size: 150%;
+        padding: 10px 10px 10px 155px;
+        background-image: url(lighthouselogo.jpg);
+        background-repeat: no-repeat;
+        position: sticky;
+        top: 0;
+
+}
+
+nav { width: 150px;
+	   letter-spacing:0.1em;
+	   font-weight: bold;
+}
+
+footer {font-size:70%;
+         padding: 10px;
+         clear: both;
+}
+
+nav ul { list-style-type: none;
+                 margin: 0;
+	   padding: 0;
+}
+
+.bottomnav { float: left;}
+
+.topnav { float: right;}
+
+.maincontent { background-color: yellow; }
+
+#wrapper { background-color: white;
+           color: #000066;
+           width: 80%;
+           margin: 0 auto;
+           min-width: 960px;
+}
+
+#floatright { margin: 10px;float: right; }
